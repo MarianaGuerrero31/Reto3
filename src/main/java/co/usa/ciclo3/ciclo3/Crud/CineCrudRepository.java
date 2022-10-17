@@ -15,6 +15,6 @@ import org.springframework.data.repository.CrudRepository;
  */
 public interface CineCrudRepository extends CrudRepository<Cine, Integer> {
 
-    public Optional<Cine> findById(int id);
+    //public Optional<Cine> findById(int id);
     
 }

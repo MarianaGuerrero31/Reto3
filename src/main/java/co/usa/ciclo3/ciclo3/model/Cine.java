@@ -35,7 +35,7 @@ public class Cine implements Serializable {
     private String name;
     
     @ManyToOne
-    @JoinColumn(name="category_id")
+    @JoinColumn(name="categor_id")
     @JsonIgnoreProperties("cine")
     private Category category;
     

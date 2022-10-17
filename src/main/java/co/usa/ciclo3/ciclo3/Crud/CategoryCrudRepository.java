@@ -14,6 +14,6 @@ import org.springframework.data.repository.CrudRepository;
  */
 public interface CategoryCrudRepository extends CrudRepository<Category, Integer> {
     
-    public Optional<Category> findBy(int id);
+    //public Optional<Category> findBy(int id);
     
 }

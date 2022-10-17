@@ -14,8 +14,8 @@ import org.springframework.data.repository.CrudRepository;
  */
 public interface ClientCrudRepository extends CrudRepository<Client, Integer> {
 
-    public Category save(Category category);
+    //public Category save(Category category);
 
-    public void delete(Category category);
+    //public void delete(Category category);
     
 }

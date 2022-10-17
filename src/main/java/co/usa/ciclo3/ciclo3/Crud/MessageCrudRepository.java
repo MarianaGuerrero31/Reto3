@@ -14,6 +14,6 @@ import org.springframework.data.repository.CrudRepository;
  */
 public interface MessageCrudRepository extends CrudRepository<Message, Integer> {
 
-    public Optional<Message> findById(int id);
+    //public Optional<Message> findById(int id);
     
 }
